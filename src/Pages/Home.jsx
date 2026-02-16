@@ -72,7 +72,7 @@ const Home = () => {
                   </svg>
                 </div>
                 <span className="font-black text-white uppercase" style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: '0.1em' }}>
-                  Shin<span style={{ color: '#dc2626' }}>Verse</span>
+                  komik<span style={{ color: '#dc2626' }}>Verse</span>
                 </span>
               </div>
               <p className="text-xs" style={{ color: '#4b5563' }}>
