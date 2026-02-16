@@ -19,9 +19,6 @@ const Home = () => {
       <div className="min-h-screen" style={{ background: 'rgb(8,8,10)', color: '#f5f5f8' }}>
         <div className="max-w-screen-xl mx-auto px-3 pt-4 pb-8">
 
-          {/* Search / Hero */}
-          <SearchComic />
-
           {/* Terbaru */}
           <div className="mt-8">
             <CardTerbaruComic />
