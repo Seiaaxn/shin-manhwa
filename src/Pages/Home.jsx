@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <SEO
         title="Komik-Verse - Baca Komik Gratis Bahasa Indonesia Terbaru"
-        description="Baca komik online gratis di Komik-Verse. Koleksi lengkap komik terbaru, trending, dan populer dalam bahasa Indonesia. Update setiap hari!"
+        description="Baca komik online gratis di ShinVerse. Koleksi lengkap komik terbaru, trending, dan populer dalam bahasa Indonesia. Update setiap hari!"
         keywords="komik indonesia, baca komik gratis, komik online, manga indonesia, manhwa indonesia"
         url="https://juju-manhwa-2-0.vercel.app/"
       />
@@ -21,7 +21,7 @@ const Home = () => {
 
           {/* Search / Hero */}
           <SearchComic />
-          
+
           {/* Terbaru */}
           <div className="mt-8">
             <CardTerbaruComic />
@@ -72,11 +72,11 @@ const Home = () => {
                   </svg>
                 </div>
                 <span className="font-black text-white uppercase" style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: '0.1em' }}>
-                  komik<span style={{ color: '#dc2626' }}>Verse</span>
+                  Komik<span style={{ color: '#dc2626' }}>Verse</span>
                 </span>
               </div>
               <p className="text-xs" style={{ color: '#4b5563' }}>
-                © {new Date().getFullYear()} Komik-Verse — Platform baca komik online
+                © {new Date().getFullYear()} ShinVerse™ — Platform baca komik online
               </p>
             </div>
           </div>
@@ -87,4 +87,4 @@ const Home = () => {
 }
 
 export default Home
-                      
+                  
